@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import Link from "next/link";
 
+
 class MyDocument extends Document {
   render() {
     return (
@@ -13,6 +14,7 @@ class MyDocument extends Document {
           {/* script */}
           <script async src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js" />
+          {/* favicon */}
         </Head>
         <body>
           <Main />

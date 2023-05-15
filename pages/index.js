@@ -13,6 +13,8 @@ import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 import PopupWidgetWhatsapp from "../components/popupWidgetWhatsapp";
 
+import logoMaxi from "../public/faviconMaxi.ico";
+
 const Home = () => {
   return (
     <>
@@ -22,7 +24,7 @@ const Home = () => {
           name="description"
           content="MaxiCom es un proveedor de internet por fibra óptica, con la máxima velocidad y estabilidad."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/faviconMaxi.ico" />
       </Head>
 
       <Navbar />
